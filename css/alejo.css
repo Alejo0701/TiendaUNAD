@@ -1,0 +1,22 @@
+.navbar-text {
+   margin-top: 40px !important;
+    //margin-bottom: 50px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 40px !important;
+    //padding-bottom: 50px;
+}
+
+.navbar-text{
+  margin-left: 180px;
+}
+
+.navbar-default .navbar-text {
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #005883;
+    border-color: #005883;
+}

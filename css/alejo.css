@@ -34,3 +34,14 @@
     padding-top: 15px;
     padding-bottom: 50px;
 }
+
+.bienvenida{
+  font-size: 25px;
+  border:10px solid #005883;
+  background: #F0B429;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+}

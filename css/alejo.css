@@ -56,5 +56,25 @@
 }
 
 
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #005883;
+}
 
+.contenido{
+      min-height: calc(100% - 320px) !important;
+}
+
+
+.dropdown-toggle{
+  font: Helvetica !important;
+}
+
+.glyphicon {
+    font-family: inherit;
+}
+.glyphicon:before{
+    font-family:'Glyphicons Halflings';
+}
 

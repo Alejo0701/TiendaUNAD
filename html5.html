@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>OVI - DISEÑO DE SITIOS WEB</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/alejo.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sitcky_footer.css">
+    <link rel="icon" href="../../favicon.ico">
+  </head>  
+  <body style="background-image: url('img/fondo2.jpg'); background-size: cover;">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#colapsada">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbrand-brand" href="http://www.unad.edu.co">
+            <img alt="Brand" class="img-responsive logo" src="img/logo.png">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="colapsada">
+          <h3  class="navbar-text">OVI - DISEÑO DE SITIOS WEB</h3>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="Index.html">
+                <span class="glyphicon glyphicon-home"></span> Inicio
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle glyphicon glyphicon-book" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                Lecturas
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="que_es_git_y_github.html">Que es git y github</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="manejo_github.html">Manejo de GitHub</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="manejo_git.html">Manejo de Git</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="html5.html">Que es HTML5</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="css3.html">Que es CSS3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle glyphicon glyphicon-film" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Multimedia<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Pagina1</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Pagina2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle glyphicon glyphicon-pencil" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Actividades<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Pagina1</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Pagina2</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Pagina2</a></li>
+              </ul>
+            </li>
+            <li><a href="#" data-toggle="modal" data-target="#modalautor"><span class="glyphicon glyphicon-user"></span> Autores</a></li>
+          </ul>
+          <div class="modal fade" id="modalautor" tabindex="-1" role="dialog" aria-labelledby="madalautor" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel">Basic Modal</h4>
+                </div>
+                <div class="modal-body">
+                  <h3>Modal Body</h3>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="contenido">      
+      <div class="bienvenida">
+        <p align="center" style="text-shadow: 2px 2px 5px red";>
+          <b>Que es HTML5</b>
+        </p>
+        <p>
+          Estimado lector sea bienvenido a este espacio el cual ha sido creado con el fin de realizar una explicacion sobre que es html5 y cuales son los nuevos elementos que este trae ademas de las nuevas tecnologias que nos ofrece, esperamos que sea de su agrado.
+        </p> 
+      </div>
+      <br>
+      <div class="row" style="margin-bottom: 50px;">
+        <div class="col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1">
+          <iframe width="100%" height="100%" src="lecturas/html5.pdf" frameborder="0" widhth="1200"></iframe>
+        </div>          
+      </div>
+    </div>
+    <footer class="footer">
+       <div class="container">
+          <p class="text-muted">Place sticky footer content here.</p>
+          <p class="text-muted">Place sticky footer content here.</p>
+          <p class="text-muted">Place sticky footer content here.</p>
+          <p class="text-muted">Place sticky footer content here.</p>
+          <p class="text-muted">Place sticky footer content here.</p>
+       </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+  </body>
+</html>

@@ -135,3 +135,16 @@
     top: -104px;
     left: 6px;
 }
+
+.widget-twitter{
+    font-size: 25px;
+  border:10px solid #005883;
+  background: #F0B429;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 100px;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 10px 10px 5px grey;
+}
+

@@ -78,3 +78,54 @@
     font-family:'Glyphicons Halflings';
 }
 
+#main-footer {
+  background: #005883;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+  #main-footer p {
+    margin: 0;
+  }
+  
+  #main-footer a {
+    color: white;
+  }
+
+  .logofooter{
+    width:100px;
+    margin: 15px;
+    position: relative;
+    top: -9px;
+    left: -1px;
+  }
+
+  .n{
+   width: 36%;
+    /* float: left; */
+    font-size: 16px;
+    text-align: left;
+    line-height: 14px;
+    position: relative;
+    left: 194px;
+    top: -65px;
+    margin: -27px;
+  }
+
+  .footer_ {
+    position: absolute;
+    top: 63px;
+}
+
+.cont {
+    float: right;
+    position: relative;
+   top: -21px;
+    left: -40px;
+    padding: 8px 16px;
+    margin: -30px;
+    border: 1px solid;
+    border-radius: 43px;
+    text-align: center;
+}
+

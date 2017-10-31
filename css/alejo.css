@@ -9,7 +9,7 @@
 }
 
 .navbar-text{
-  margin-left: 180px;
+  margin-left: 60px;
 }
 
 .navbar-default .navbar-text {
@@ -40,8 +40,7 @@
   border:10px solid #005883;
   background: #F0B429;
   padding: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 20px 0 50px 0;
   overflow: hidden;
   border-radius: 35px 0px 35px 0px;
   box-shadow: 10px 10px 5px grey;
@@ -79,9 +78,10 @@
 }
 
 #main-footer {
+  height: auto;
   background: #005883;
   color: white;
-  padding: 20px;
+  padding-top: 20px;
   margin-top: 40px;
 }
   #main-footer p {
@@ -114,16 +114,14 @@
 
   .footer_ {
     position: absolute;
-    top: 63px;
+    top: 65px;
 }
 
 .cont {
-    float: right;
     position: relative;
-   top: -70px;
-    left: -40px;
+   //top: 34px;
     padding: 8px 16px;
-    margin: -30px;
+    margin: 15px;
     border: 1px solid;
     border-radius: 43px;
     text-align: center;
@@ -141,10 +139,21 @@
   border:10px solid #005883;
   background: #F0B429;
   padding: 20px;
-  margin-left: 40px;
-  margin-right: 100px;
+  //margin-left: 40px;
+  //margin-right: 100px;
   overflow: hidden;
   border-radius: 35px 0px 35px 0px;
   box-shadow: 10px 10px 5px grey;
 }
 
+.widget-twitter2{
+  font-size: 25px;
+  border:10px solid #005883;
+  background: #F0B429;
+  padding: 20px;
+  //margin-left: 15px;
+  //margin-right: 500px;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 10px 10px 5px grey;
+}

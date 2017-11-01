@@ -46,6 +46,31 @@
   box-shadow: 10px 10px 5px grey;
 }
 
+.marco_actividades{
+  font-size: 25px;
+  border:10px solid #005883;
+  background: #F0B429;
+  padding: 20px;
+  margin: 20px 0 50px 0;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 10px 10px 5px grey;
+  text-align: center;
+  //line-height: 100%;
+}
+
+.lec{
+  font-size: 25px;
+  border:10px solid #005883;
+  background: #F0B429;
+  padding: 20px;
+  //margin: 20px 0 50px 0;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 10px 10px 5px grey;
+  text-align: center;
+}
+
 .banner-diseno{
   border-radius: 35px;
   text-align: center;

@@ -182,3 +182,13 @@
   border-radius: 35px 0px 35px 0px;
   box-shadow: 10px 10px 5px grey;
 }
+
+.fotos{
+  width: 70px;
+  height: 80px;
+}
+
+.modal-dialog{
+   width: 35%;
+   margin: auto;
+}

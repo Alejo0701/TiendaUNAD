@@ -4,10 +4,13 @@
       <title>OVI - DISEÑO DE SITIOS WEB</title>
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/alejo.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/sitcky_footer.css">
       <link rel="icon" href="../../favicon.ico">
+      <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+      <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+      <script type="text/javascript">var oCOMScript1432740=document.createElement('script');oCOMScript1432740.src="http://commondatastorage.googleapis.com/comslider/target/users/1509601414x4c3f23ed55456809d4a3348c96a10e45/comslider.js?timestamp=1509601691";oCOMScript1432740.type='text/javascript';document.getElementsByTagName("head").item(0).appendChild(oCOMScript1432740);</script>
+
    </head>
-   <body style="background-image: url('img/fondo2.jpg'); background-size: cover;">
+   <body style="background-image: url('img/fondo2.jpg'); background-size: cover;" onload="javascript:cambiarPestanna(pestanas,pestana1);">>
    <nav class="navbar navbar-default" role="navigation">
       <div class="container">
          <div class="navbar-header">
@@ -87,45 +90,92 @@
          </div>
       </div>
    </nav>
-   
-      <div class="contenido">
-         <div class="container">
-         <div class="row">
-            <div class="col-xs-12">
-               <div class="bienvenida">
-          
-            <p align="center" style="text-shadow: 2px 2px 5px red";><b>OVI DISEÑO DE SITIOS WEB - USO DE GIT/GITHUB - HTML5 Y CSS3</b></p>
+   <div class="Contenido">
+    <div class="container">
+    <div class="contenedor">
+            <div class="titulo"><p align="center" font-color="black" style="text-shadow: 2px 2px 5px red";><b>OVI DISEÑO DE SITIOS WEB - USO DE GIT/GITHUB - HTML5 Y CSS3</b></p></div>
             <br>
-            <p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>
-            <br>
-            Sean ustedes bienvenidos a este espacio el cual ha sido creado para brindarles informacion acerca del uso de herramientas para la construccion de sitios web, tales como los "lenguajes" HTML5 y CS3 asi como la utilizacion del repositorio GITHUB.
-     
-         </div>
-            </div>
-         </div>
-         
-         <div class="row">
-            <div class="col-sm-6" style="background-color:F00;">
-               <p align="center" style="text-shadow: 2px 2px 5px red";><b>CONTENIDO DEL SITIO</b></p>
-               <br>
-               <!--<p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>-->
-               <br>
-               <p align="center">En este sitio encontrara la siguiente información:<br></p>
-               <ul>
-                  <li>Git y Github. Que es y como funciona?</li>
-               </ul>
-            </div>
-            <div class="col-sm-6">
-               <div class="widget-twitter">
-               <p align="center"><a class="twitter-timeline" align="center" data-lang="es" data-width="100%" data-height="300" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a></p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            </div>
-         </div>
-      </div>
-   </div>
+            <div id="slide" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#slide" data-slide-to="0" class="active"></li>
+      <li data-target="#slide" data-slide-to="1"></li>
+      <li data-target="#slide" data-slide-to="2"></li>
+      <li data-target="#slide" data-slide-to="3"></li>
+      </ol>
 
-	
-      <footer class="footer">
+    <div class="carousel-inner">
+      <div class="item active">
+        <p align="center"><img src="img/etiquetas.jpg" alt="Etiquetas" style="width:750px">
+      </div></p>
+
+      <div class="item">
+        <img src="img/HyS.jpg" alt="Header y Section" style="width:750px;">
+      </div>
+    
+      <div class="item">
+        <img src="img/AyA.jpg" alt="Article y Aside" style="width:750px;">
+      </div>
+
+      <div class="item">
+        <img src="img/FyN.jpg" alt="Footer y Nav" style="width:750px;">
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#slide" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#slide" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+            <div id="pestanas">
+                <ul id=lista>
+                    <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Estructura basica HTML5</a></li>
+                    <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Paginas</a></li>
+                    <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Navegación</a></li>
+                    <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>Contenido</a></li>
+                </ul>
+            </div>
+            
+       
+            <div id="contenidopestanas">
+                <div id="cpestana1">
+                    HTML, siglas de HyperText Markup Language («lenguaje de marcado de hipertexto»), hace referencia al lenguaje de marcado predominante para la elaboración de páginas web que se utiliza para describir y traducir la estructura y la información en forma de texto, así como para complementar el texto con objetos tales como imágenes. El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir un script (por ejemplo JavaScript), el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.<br>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PZoDLaOLcBM" frameborder="0" allowfullscreen></iframe>
+
+
+                </div>
+
+                <div id="cpestana2">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/SlrxCkGrjJw" frameborder="0" gesture="media" allowfullscreen></iframe>
+                </div>
+                <div id="cpestana3">
+                  <iframe width="854" height="480" src="https://www.youtube.com/embed/3raTq4ebDdQ" frameborder="0" gesture="media" allowfullscreen></iframe>
+                </div>
+                <div id="cpestana4">
+                   <iframe width="854" height="480" src="https://www.youtube.com/embed/-i4OHNoW8ms" frameborder="0" gesture="media" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+        <div class="widget-twitter3">
+                 <p align="center"><a class="twitter-timeline" align="center" data-lang="es" data-width="100%" data-height="100%" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a></p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+
+              </div>
+            </div>
+
+
+
+
+
+<footer class="footer">
          <div id="main-footer">
             <div class="container">
             <div class="row">
@@ -175,9 +225,10 @@
             </div>         
          </div>
          </div>
-		 </div>
+     </div>
       </footer>
       <script src="https://code.jquery.com/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>  
    </body>
 </html>
+</pre>

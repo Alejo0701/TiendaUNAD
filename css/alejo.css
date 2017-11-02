@@ -183,6 +183,20 @@
   box-shadow: 10px 10px 5px grey;
 }
 
+.widget-twitter3{
+  font-size: 25px;
+  border:10px solid #005883;
+  background: #F0B429;
+  padding: 20px;
+  //margin-left: 15px;
+  //margin-right: 500px;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  box-shadow: 10px 10px 5px grey;
+  //width: 400px;
+  height: 650px;
+}
+
 .fotos{
   width: 70px;
   height: 80px;
@@ -191,4 +205,80 @@
 .modal-dialog{
    width: 35%;
    margin: auto;
+}
+
+
+.contenedor{
+    width: 1080px;
+    margin: auto;
+    background: #F0B429;
+    color: white;
+    padding: 20px 15px 50px 50px;
+    border:10px solid #005883;
+    border-radius: 35px 0px 35px 0px;
+    box-shadow: 10px 10px 5px grey;
+}
+ 
+.contenedor .titulo{
+    font-size: 3.5ex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+ 
+#pestanas {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+ 
+#pestanas ul{
+    margin-left: -40px;    
+}
+ 
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: #005883;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid white;
+    border-bottom: dimgray;
+    padding: 0px 20px 0px 20px;
+    background: #F47920;
+
+}
+ 
+#pestanas a:link{
+    text-decoration: none;
+    color: white;
+}
+ 
+#contenidopestanas{
+    clear: both;  
+    background: #F47920;
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 2px solid bisque;
+    width: 100%;
+    text-align: center;
+    font-size: 3ex;
+}
+
+
+#pestanas #pestana1, #cpestana1{
+  background: #F47920;
+}
+
+.carousel-control{
+  margin: 35px;
+}
+
+.item{
+  margin: auto;
+  width: 80%;
 }

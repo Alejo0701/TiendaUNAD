@@ -4,10 +4,12 @@
       <title>OVI - DISEÑO DE SITIOS WEB</title>
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/alejo.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/sitcky_footer.css">
       <link rel="icon" href="../../favicon.ico">
+      <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+      <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
    </head>
-   <body style="background-image: url('img/fondo2.jpg'); background-size: cover;">
+   <body style="background-image: url('img/fondo2.jpg'); background-size: cover;" onload="javascript:cambiarPestanna(pestanas,pestana1);">>
    <nav class="navbar navbar-default" role="navigation">
       <div class="container">
          <div class="navbar-header">
@@ -87,45 +89,43 @@
          </div>
       </div>
    </nav>
-   
-      <div class="contenido">
-         <div class="container">
-         <div class="row">
-            <div class="col-xs-12">
-               <div class="bienvenida">
-          
-            <p align="center" style="text-shadow: 2px 2px 5px red";><b>OVI DISEÑO DE SITIOS WEB - USO DE GIT/GITHUB - HTML5 Y CSS3</b></p>
+    <div class="contenedor">
+            <div class="titulo"><p align="center" font-color="black" style="text-shadow: 2px 2px 5px red";><b>OVI DISEÑO DE SITIOS WEB - USO DE GIT/GITHUB - HTML5 Y CSS3</b></p></div>
             <br>
-            <p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>
-            <br>
-            Sean ustedes bienvenidos a este espacio el cual ha sido creado para brindarles informacion acerca del uso de herramientas para la construccion de sitios web, tales como los "lenguajes" HTML5 y CS3 asi como la utilizacion del repositorio GITHUB.
-     
-         </div>
+            <div id="pestanas">
+                <ul id=lista>
+                    <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>HTML</a></li>
+                    <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>CSS</a></li>
+                    <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>JavaScript</a></li>
+                    <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>PHP</a></li>
+                    <li id="pestana5"><a href='javascript:cambiarPestanna(pestanas,pestana5);'>Java EE</a></li>
+                    <li id="pestana6"><a href='javascript:cambiarPestanna(pestanas,pestana6);'>Android</a></li>
+                </ul>
             </div>
-         </div>
-         
-         <div class="row">
-            <div class="col-sm-6" style="background-color:F00;">
-               <p align="center" style="text-shadow: 2px 2px 5px red";><b>CONTENIDO DEL SITIO</b></p>
-               <br>
-               <!--<p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>-->
-               <br>
-               <p align="center">En este sitio encontrara la siguiente información:<br></p>
-               <ul>
-                  <li>Git y Github. Que es y como funciona?</li>
-               </ul>
+            
+       
+            <div id="contenidopestanas">
+                <div id="cpestana1">
+                    HTML, siglas de HyperText Markup Language («lenguaje de marcado de hipertexto»), hace referencia al lenguaje de marcado predominante para la elaboración de páginas web que se utiliza para describir y traducir la estructura y la información en forma de texto, así como para complementar el texto con objetos tales como imágenes. El HTML se escribe en forma de «etiquetas», rodeadas por corchetes angulares (<,>). HTML también puede describir, hasta un cierto punto, la apariencia de un documento, y puede incluir un script (por ejemplo JavaScript), el cual puede afectar el comportamiento de navegadores web y otros procesadores de HTML.
+                </div>
+                <div id="cpestana2">
+                    El nombre hojas de estilo en cascada viene del inglés Cascading Style Sheets, del que toma sus siglas. CSS es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML2 (y por extensión en XHTML). El W3C (World Wide Web Consortium) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.
+                </div>
+                <div id="cpestana3">
+                    JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos,3 basado en prototipos, imperativo, débilmente tipado y dinámico.
+                </div>
+                <div id="cpestana4">
+                    PHP es un lenguaje de programación de uso general de script del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico. Fue uno de los primeros lenguajes de programación del lado del servidor que se podían incorporar directamente en el documento HTML en lugar de llamar a un archivo externo que procese los datos. El código es interpretado por un servidor web con un módulo de procesador de PHP que genera la página Web resultante. PHP ha evolucionado por lo que ahora incluye también una interfaz de línea de comandos que puede ser usada en aplicaciones gráficas independientes. PHP puede ser usado en la mayoría de los servidores web al igual que en casi todos los sistemas operativos y plataformas sin ningún costo.
+                </div>
+                <div id="cpestana5">
+                    Java Platform, Enterprise Edition o Java EE (anteriormente conocido como Java 2 Platform, Enterprise Edition o J2EE hasta la versión 1.4; traducido informalmente como Java Empresarial), es una plataforma de programación—parte de la Plataforma Java—para desarrollar y ejecutar software de aplicaciones en el lenguaje de programación Java. Permite utilizar arquitecturas de N capas distribuidas y se apoya ampliamente en componentes de software modulares ejecutándose sobre un servidor de aplicaciones. La plataforma Java EE está definida por una especificación. Similar a otras especificaciones del Java Community Process, Java EE es también considerada informalmente como un estándar debido a que los proveedores deben cumplir ciertos requisitos de conformidad para declarar que sus productos son conformes a Java EE; estandarizado por The Java Community Process / JCP.
+                </div>
+                <div id="cpestana6">
+                    Android es un sistema operativo móvil basado en Linux, que junto con aplicaciones middleware8 está enfocado para ser utilizado en dispositivos móviles como teléfonos inteligentes, tabletas, Google TV y otros dispositivos.9 Es desarrollado por la Open Handset Alliance, la cual es liderada por Google. Este sistema por lo general maneja aplicaciones como Google Play.
+                </div>
             </div>
-            <div class="col-sm-6">
-               <div class="widget-twitter">
-               <p align="center"><a class="twitter-timeline" align="center" data-lang="es" data-width="100%" data-height="300" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a></p> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            </div>
-         </div>
-      </div>
-   </div>
-
-	
-      <footer class="footer">
+        </div>
+<footer class="footer">
          <div id="main-footer">
             <div class="container">
             <div class="row">
@@ -175,9 +175,10 @@
             </div>         
          </div>
          </div>
-		 </div>
+     </div>
       </footer>
       <script src="https://code.jquery.com/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>  
    </body>
 </html>
+</pre>

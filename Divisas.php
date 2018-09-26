@@ -10,23 +10,39 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
+<<<<<<< HEAD
 <body style="background-image: url('img/bandera-de-colombia.jpg'); background-size: cover;">
+=======
+<body style="background-image: url('img/fondo2.jpg'); background-size: cover;">
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
   <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="background: url('img/colombia-flag.jpg')">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link" href="index.html">Inicio</a>
+=======
+                <a class="nav-link" href="#">Inicio</a>
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Productos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
                 <a class="dropdown-item" href="Registrar.php">Registrar Producto</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="Consultar.php">Consultar Producto</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="Actualizar.php">Actualizar Producto</a>
+=======
+                <a class="dropdown-item" href="#">Registrar Producto</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Consultar Producto</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Actualizar Producto</a>
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
               </div>
         </ul>
     </div>
@@ -39,21 +55,36 @@
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link" href="Admin.php">Administración</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="Reportes.php">Reportes</a>
+=======
+                <a class="nav-link" href="#">Administración</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reportes</a>
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Operaciones Matematicas
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
                 <a class="dropdown-item" href="Divisas.php">Conversión de divisas</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="comparar.php">Comparar Números</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="secuencia.php">Secuencia de numeros</a>
+=======
+                <a class="dropdown-item" href="#">Conversión de divisas</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Comparar Números</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Secuencia de numeros</a>
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
               </div>
             </li>
         </ul>

@@ -3,6 +3,7 @@
   height:55px;
   alt:"";
 }
+<<<<<<< HEAD
 
 .area-logo{
   padding: 0 !important;
@@ -26,19 +27,36 @@
     border-radius: 35px 0px 35px 0px;
     box-shadow: 10px 10px 5px grey;
 
+=======
+
+.area-logo{
+  padding: 0 !important;
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
 }
 
-.bienvenida{
-  font-size: 25px;
-  border:10px solid #005883;
-  background: #F0B429;
-  padding: 20px;
-  margin: 20px 0 50px 0;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  box-shadow: 10px 10px 5px grey;
+.navbar-brand{
+
+<<<<<<< HEAD
+=======
+    width: 100% !important;
+    left: 0 !important;
+    text-align: center !important;
+
 }
 
+.divisas{
+    font-size: 25px;
+    border:10px solid #005883;
+    background: #F0B429;
+    padding: 20px;
+    margin: 20px 0 50px 0;
+    overflow: hidden;
+    border-radius: 35px 0px 35px 0px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+>>>>>>> aa15309d0d51f5ad7300cf36dae0d1d50d2adfdb
 .navbar-toggle {
     z-index:3;
 }

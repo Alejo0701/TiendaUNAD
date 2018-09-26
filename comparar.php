@@ -60,23 +60,42 @@
     </div>
 </nav>
 <br>
-<div class="contenido">
-   <div class="container">
-   <div class="row">
-      <div class="col-xs-12">
-         <div class="bienvenida">
+    <div class="contenido">
+         <div class="container">
+         <div class="row">
+            <div class="col-6 offset-3">
+               <div class="divisas mx-auto">
+                 <form method="Post">
 
-      <p align="center" style="text-shadow: 2px 2px 5px red";><b>LA TIENDITA CRIOLLA: VENTA DE PRODUCTOS TIPICOS COLOMBIANOS</b></p>
-      <br>
-      <p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>
-      <br>
-      Sean ustedes bienvenidos a este espacio el cual ha sido creado para brindarles informacion acerca del uso de herramientas para la construccion de sitios web, tales como los "lenguajes" HTML5 y CS3 asi como la utilizacion del repositorio GITHUB.
+                 Ingrese el valor en Pesos (COP):<br>
+                 <input type="text" name="valorcop" value="<?php if(isset($_POST['submit2'])) { echo $_POST['valorcop']; } ?>" required><br>
+                 Ingrese el valor en Euros (EUR):<br>
+                 <input type="text" name="valoreur" value="<?php if(isset($_POST['submit2'])) { echo $_POST['valoreur']; } ?>" required><br><br>
 
-   </div>
+                 <input type="submit" name="submit2" value="Comparar"><br>
+
+
+                 Resultado:<br>
+                 <p align="center">
+                 <?php
+                   if (isset($_POST['submit2'])) {
+                   $valor1=intval($_POST['valorcop'])*0.0028;
+                   $valor2=$_POST['valoreur'];
+                   if ($valor1==$valor2) {
+                       echo "Los dos valores ingresados son iguales";
+                     }
+                     elseif ($valor1>$valor2) {
+                       echo "El valor en pesos es mayor al convetirlo que el valor en euros ingresado.";
+                     }
+                     else {
+                       echo "El valor ingresado en euros en mayor al valor ingresado en pesos al convertirlo";
+                     }
+                   }?>
+                 </p>
+                   </form>
       </div>
+     </div>
    </div>
-</div>
-</div>
 
 
   </body>

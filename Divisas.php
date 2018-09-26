@@ -60,23 +60,65 @@
     </div>
 </nav>
 <br>
-<div class="contenido">
-   <div class="container">
-   <div class="row">
-      <div class="col-xs-12">
-         <div class="bienvenida">
+    <div class="contenido">
+         <div class="container">
+         <div class="row">
+            <div class="col-6 offset-3">
+               <div class="divisas mx-auto">
+                 <form method="post">
+                   Valor a convertir:<br>
+                   <input type="text" name="valor1" value="<?php if(isset($_POST['submit'])) { echo $_POST['valor1']; } ?>" required><br>
+                   Resultado:<br>
+                   <input type="text" name="Resultado" disabled="true" value="<?php
+                     if (isset($_POST['submit'])) {
+                     if(isset($_POST['gender'])) {
+                     //  Displaying Selected Value
+                     switch ($_POST['gender']) {
+                       case 'conv1':
+                         $resultado=$_POST['valor1']*0.00033;
+                         echo $resultado." Dolares (USD)";
+                         break;
+                       case 'conv2':
+                         $resultado=$_POST['valor1']*2990.95;
+                         echo $resultado." Pesos (COP)";
+                         break;
+                       case 'conv3':
+                         $resultado=$_POST['valor1']*3520.12;
+                         echo $resultado." Pesos (COP)";
+                         break;
+                       case 'conv4':
+                         $resultado=$_POST['valor1']*0.00028;
+                         echo $resultado." Euros (EUR)";
+                         break;
+                       case 'conv5':
+                         $resultado=$_POST['valor1']*1.18;
+                         echo $resultado." Dolares (USD)";
+                         break;
+                       case 'conv6':
+                         $resultado=$_POST['valor1']*0.85;
+                         echo $resultado." Euros (EUR)";
+                         break;
 
-      <p align="center" style="text-shadow: 2px 2px 5px red";><b>LA TIENDITA CRIOLLA: VENTA DE PRODUCTOS TIPICOS COLOMBIANOS</b></p>
-      <br>
-      <p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>
-      <br>
-      Sean ustedes bienvenidos a este espacio el cual ha sido creado para brindarles informacion acerca del uso de herramientas para la construccion de sitios web, tales como los "lenguajes" HTML5 y CS3 asi como la utilizacion del repositorio GITHUB.
+                       default:
+                         // code...
+                         break;
+                     }
+                     }
+                   }
+                     ?>"><br>
+                   Seleccione la operacion a realizar<br>
+                   <input type="radio" name="gender" value="conv1" required> Covertir Pesos (COP) a Dolares (USD)<br>
+                   <input type="radio" name="gender" value="conv2"> Convertir Dolares (USD) a Pesos (COP)<br>
+                   <input type="radio" name="gender" value="conv3"> Euros (EUR) a Pesos (COP)<br>
+                   <input type="radio" name="gender" value="conv4"> Pesos (COP) a Euros (EUR)<br>
+                   <input type="radio" name="gender" value="conv5"> Euros (EUR) a Dolares (USD)<br>
+                   <input type="radio" name="gender" value="conv6"> Dolares (USD) a Euros (EUR)<br>
+                   <input type="submit" name="submit" value="Realizar Conversión">
 
-   </div>
+                 </form>
       </div>
+     </div>
    </div>
-</div>
-</div>
 
 
   </body>

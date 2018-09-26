@@ -60,23 +60,28 @@
     </div>
 </nav>
 <br>
-<div class="contenido">
-   <div class="container">
-   <div class="row">
-      <div class="col-xs-12">
-         <div class="bienvenida">
-
-      <p align="center" style="text-shadow: 2px 2px 5px red";><b>LA TIENDITA CRIOLLA: VENTA DE PRODUCTOS TIPICOS COLOMBIANOS</b></p>
-      <br>
-      <p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>
-      <br>
-      Sean ustedes bienvenidos a este espacio el cual ha sido creado para brindarles informacion acerca del uso de herramientas para la construccion de sitios web, tales como los "lenguajes" HTML5 y CS3 asi como la utilizacion del repositorio GITHUB.
-
-   </div>
+    <div class="contenido">
+         <div class="container">
+         <div class="row">
+            <div class="col-6 offset-3">
+               <div class="divisas mx-auto">
+                 <form method="POST">
+                   <input type="submit" name="submit3" value="Generar"><br>
+                   <?php
+                     if (isset($_POST['submit3'])) {
+                 for ($i=0; $i<=26 ; $i++) {
+                   $n1=$i;
+                   if ($n1=="26") {
+                     echo $n1;
+                   }
+                   else{echo $n1." - ";
+                   }
+                 }
+               }    ?>
+             </form>
       </div>
+     </div>
    </div>
-</div>
-</div>
 
 
   </body>

@@ -1,37 +1,31 @@
-.navbar-text {
-   margin-top: 40px !important;
-    //margin-bottom: 50px;
-}
-
-.navbar-nav > li > a {
-    padding-top: 40px !important;
-    //padding-bottom: 50px;
-}
-
-.navbar-text{
-  margin-left: 60px;
-}
-
-.navbar-default .navbar-text {
-    color: #fff;
-}
-
-.navbar-default {
-    background-color: #005883;
-    border-color: #005883;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #fff;
-}
-
 .logo{
-  width:100px;
+  width:55px;
+  height:55px;
+  alt:"";
 }
 
-.navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 50px;
+.area-logo{
+  padding: 0 !important;
+}
+
+.navbar-brand{
+
+    width: 100% !important;
+    left: 0 !important;
+    text-align: center !important;
+
+}
+
+.divisas{
+    font-size: 25px;
+    border:10px solid #005883;
+    background: #F0B429;
+    padding: 20px;
+    margin: 20px 0 50px 0;
+    overflow: hidden;
+    border-radius: 35px 0px 35px 0px;
+    box-shadow: 10px 10px 5px grey;
+
 }
 
 .bienvenida{
@@ -45,55 +39,21 @@
   box-shadow: 10px 10px 5px grey;
 }
 
-.marco_actividades{
-  font-size: 25px;
-  border:10px solid #005883;
-  background: #F0B429;
-  padding: 20px;
-  margin: 20px 0 50px 0;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  box-shadow: 10px 10px 5px grey;
-  text-align: center;
-  //line-height: 100%;
-}
-
-.lec{
-  font-size: 25px;
-  border:10px solid #005883;
-  background: #F0B429;
-  padding: 20px;
-  //margin: 20px 0 50px 0;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  box-shadow: 10px 10px 5px grey;
-  text-align: center;
-}
-
-.banner-diseno{
-  border-radius: 35px;
-  text-align: center;
-
-  //margin: 50px;
-  //margin-left: 20px;
-}
-
-
-.footer {
-  width: 100%;
-  height: auto;
-  background-color: #005883;
+.navbar-toggle {
+    z-index:3;
 }
 
 .contenido{
       min-height: calc(100% - 320px) !important;
 }
 
-
 .dropdown-toggle{
   font: Helvetica !important;
 }
 
+#navigation,.navbar .navbar-default{
+  background-image: url("img/colombia-flag.jpg");
+}
 .glyphicon {
     font-family: inherit;
 }
@@ -101,111 +61,9 @@
     font-family:'Glyphicons Halflings';
 }
 
-#main-footer {
-  height: auto;
-  background: #005883;
-  color: white;
-  padding-top: 20px;
-  margin-top: 40px;
+.navbar-dark{
+  font-size: 1.2re;
 }
-  #main-footer p {
-    margin: 0;
-  }
-
-  #main-footer a {
-    color: white;
-  }
-
-  .logofooter{
-    width:100px;
-    margin: 15px;
-    position: relative;
-    top: -9px;
-    left: -1px;
-  }
-
-  .n{
-   width: 36%;
-    /* float: left; */
-    font-size: 16px;
-    text-align: left;
-    line-height: 14px;
-    position: relative;
-    left: 194px;
-    top: -65px;
-    margin: -27px;
-  }
-
-  .footer_ {
-    position: absolute;
-    top: 65px;
-}
-
-.cont {
-    position: relative;
-   //top: 34px;
-    padding: 8px 16px;
-    margin: 15px;
-    border: 1px solid;
-    border-radius: 43px;
-    text-align: center;
-}
-
-.na {
-    position: relative;
-    float: right;
-    top: -104px;
-    left: 6px;
-}
-
-.widget-twitter{
-    font-size: 25px;
-  border:10px solid #005883;
-  background: #F0B429;
-  padding: 20px;
-  //margin-left: 40px;
-  //margin-right: 100px;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  box-shadow: 10px 10px 5px grey;
-}
-
-.widget-twitter2{
-  font-size: 25px;
-  border:10px solid #005883;
-  background: #F0B429;
-  padding: 20px;
-  //margin-left: 15px;
-  //margin-right: 500px;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  box-shadow: 10px 10px 5px grey;
-}
-
-.widget-twitter3{
-  font-size: 25px;
-  border:10px solid #005883;
-  background: #F0B429;
-  padding: 20px;
-  //margin-left: 15px;
-  //margin-right: 500px;
-  overflow: hidden;
-  border-radius: 35px 0px 35px 0px;
-  box-shadow: 10px 10px 5px grey;
-  //width: 400px;
-  height: 650px;
-}
-
-.fotos{
-  width: 70px;
-  height: 80px;
-}
-
-.modal-dialog{
-   width: 35%;
-   margin: auto;
-}
-
 
 .contenedor{
     width: 1080px;
@@ -216,68 +74,4 @@
     border:10px solid #005883;
     border-radius: 35px 0px 35px 0px;
     box-shadow: 10px 10px 5px grey;
-}
-
-.contenedor .titulo{
-    font-size: 3.5ex;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    color: black;
-}
-
-#pestanas {
-    float: top;
-    font-size: 3ex;
-    font-weight: bold;
-}
-
-#pestanas ul{
-    margin-left: -40px;
-}
-
-#pestanas li{
-    list-style-type: none;
-    float: left;
-    text-align: center;
-    margin: 0px 2px -2px -0px;
-    background: #005883;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border: 2px solid white;
-    border-bottom: dimgray;
-    padding: 0px 20px 0px 20px;
-    background: #F47920;
-
-}
-
-#pestanas a:link{
-    text-decoration: none;
-    color: white;
-}
-
-#contenidopestanas{
-    clear: both;
-    background: #F47920;
-    padding: 20px 0px 20px 20px;
-    border-radius: 5px;
-    border-top-left-radius: 0px;
-    border: 2px solid bisque;
-    width: 100%;
-    text-align: center;
-    font-size: 3ex;
-}
-
-
-#pestanas #pestana1, #cpestana1{
-  background: #F47920;
-}
-
-.carousel-control{
-  margin: 35px;
-}
-
-.item{
-  margin: auto;
-  width: 80%;
 }

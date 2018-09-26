@@ -68,9 +68,10 @@
 
       <p align="center" style="text-shadow: 2px 2px 5px red";><b>LA TIENDITA CRIOLLA: VENTA DE PRODUCTOS TIPICOS COLOMBIANOS</b></p>
       <br>
-      <p align="center"><img class="img-responsive banner-diseno" src="img/banner diseño800x600.jpg"></p>
+      <p align="center" style="text-shadow: 2px 2px 5px red";><b>Administración</b></p>
       <br>
-      Sean ustedes bienvenidos a este espacio el cual ha sido creado para brindarles informacion acerca del uso de herramientas para la construccion de sitios web, tales como los "lenguajes" HTML5 y CS3 asi como la utilizacion del repositorio GITHUB.
+      <p align="center"><img class="img-responsive banner-diseno" src="img/constr.jpeg"></p>
+      <br>
 
    </div>
       </div>
